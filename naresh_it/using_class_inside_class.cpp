@@ -22,24 +22,24 @@ void stu::result()
 {
     int total;
     int avg;
-    cout << id << endl;
-    cout << name << endl;
+    cout << "id"<<id << endl;
+    cout << "name"<<name << endl;
     for(int i =0; i<6; i++)
         total  = total+sub[i];
         avg = total/6.0;
-        cout<<"total = "<<total;
+        cout<<"total marks= "<<total<<endl;
         cout<<"avg = "<<avg;
    
     for (int i = 0; i < 6; i++)
-    
         if(sub[i]>35)
         
         {
          cout<<"fail";
            goto last;
         }
+             last:
       cout<<"pass";
-      last:
+          
     
 };
 
